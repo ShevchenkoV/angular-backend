@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Angular app</title>
-    
+
     <script type="text/javascript" src="{% static 'angular/angular.min.js' %}"></script>
     <script type="text/javascript" src="{% static "test.js" %}"></script>
 
 
   </head>
-  <body>
+  <body ng-controller="testCtrl">
     <h1 ng-repeat="i in test">Hello world!</h1>
 
   </body>
