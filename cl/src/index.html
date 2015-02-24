@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="ngBoilerplate">
+  <head>
+    <title ng-bind="pageTitle"></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- compiled CSS --><% styles.forEach( function ( file ) { %>
+    <link rel="stylesheet" type="text/css" href="<%= file %>" /><% }); %>
+
+    <!-- compiled JavaScript --><% scripts.forEach( function ( file ) { %>
+    <script type="text/javascript" src="<%= file %>"></script><% }); %>
+
+  </head>
+  <body>
+    <div ng-controller="AppCtrl" class="container">
+      <div class="header">
+        <div class="col-md-4">Hello world!</div>
+        <div class="col-md-8">
+          <a href ui-sref="home">Main</a>
+        </div>
+      </div>
+    </div>
+          <div class="container" ui-view="main"></div>
+  </body>
+</html>

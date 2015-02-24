@@ -1,0 +1,263 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/home/vitaliy/Desktop/42cups/client',
+6 verbose install   [ 'grunt',
+6 verbose install     'grunt-bump',
+6 verbose install     'grunt-contrib-clean',
+6 verbose install     'grunt-contrib-concat',
+6 verbose install     'grunt-contrib-copy',
+6 verbose install     'grunt-contrib-jshint',
+6 verbose install     'grunt-contrib-less',
+6 verbose install     'grunt-contrib-uglify',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'grunt-conventional-changelog',
+6 verbose install     'grunt-html2js',
+6 verbose install     'grunt-karma',
+6 verbose install     'grunt-ng-annotate',
+6 verbose install     'karma',
+6 verbose install     'karma-chrome-launcher',
+6 verbose install     'karma-jasmine' ] ]
+7 info preinstall ngbp@0.3.2
+8 warn package.json karma-coffee-preprocessor@0.2.1 No README data
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping grunt@~0.4.1 /home/vitaliy/Desktop/42cups/client
+11 verbose already installed skipping grunt-bump@0.0.6 /home/vitaliy/Desktop/42cups/client
+12 verbose already installed skipping grunt-contrib-clean@^0.4.1 /home/vitaliy/Desktop/42cups/client
+13 verbose already installed skipping grunt-contrib-concat@^0.3.0 /home/vitaliy/Desktop/42cups/client
+14 verbose already installed skipping grunt-contrib-copy@^0.4.1 /home/vitaliy/Desktop/42cups/client
+15 verbose already installed skipping grunt-contrib-jshint@^0.4.3 /home/vitaliy/Desktop/42cups/client
+16 verbose already installed skipping grunt-contrib-less@~0.11.0 /home/vitaliy/Desktop/42cups/client
+17 verbose already installed skipping grunt-contrib-uglify@^0.2.7 /home/vitaliy/Desktop/42cups/client
+18 verbose already installed skipping grunt-contrib-watch@^0.4.4 /home/vitaliy/Desktop/42cups/client
+19 verbose already installed skipping grunt-conventional-changelog@^0.1.2 /home/vitaliy/Desktop/42cups/client
+20 verbose already installed skipping grunt-html2js@^0.1.9 /home/vitaliy/Desktop/42cups/client
+21 verbose already installed skipping grunt-karma@^0.8.2 /home/vitaliy/Desktop/42cups/client
+22 verbose already installed skipping grunt-ng-annotate@^0.8.0 /home/vitaliy/Desktop/42cups/client
+23 verbose already installed skipping karma@^0.12.9 /home/vitaliy/Desktop/42cups/client
+24 verbose cache add [ 'karma-chrome-launcher@^0.1.3', null ]
+25 verbose cache add name=undefined spec="karma-chrome-launcher@^0.1.3" args=["karma-chrome-launcher@^0.1.3",null]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: 'karma-chrome-launcher@^0.1.3',
+26 verbose parsed url   path: 'karma-chrome-launcher@^0.1.3',
+26 verbose parsed url   href: 'karma-chrome-launcher@^0.1.3' }
+27 verbose already installed skipping karma-jasmine@^0.1.5 /home/vitaliy/Desktop/42cups/client
+28 verbose cache add name="karma-chrome-launcher" spec="^0.1.3" args=["karma-chrome-launcher","^0.1.3"]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '^0.1.3',
+29 verbose parsed url   path: '^0.1.3',
+29 verbose parsed url   href: '^0.1.3' }
+30 verbose addNamed [ 'karma-chrome-launcher', '^0.1.3' ]
+31 verbose addNamed [ null, '>=0.1.3-0 <0.2.0-0' ]
+32 silly lockFile 9def363b-karma-chrome-launcher-0-1-3 karma-chrome-launcher@^0.1.3
+33 verbose lock karma-chrome-launcher@^0.1.3 /home/vitaliy/.npm/9def363b-karma-chrome-launcher-0-1-3.lock
+34 silly addNameRange { name: 'karma-chrome-launcher',
+34 silly addNameRange   range: '>=0.1.3-0 <0.2.0-0',
+34 silly addNameRange   hasData: false }
+35 verbose request where is /karma-chrome-launcher
+36 verbose request registry https://registry.npmjs.org/
+37 verbose request id 8fa48811d241c8a0
+38 verbose url raw /karma-chrome-launcher
+39 verbose url resolving [ 'https://registry.npmjs.org/', './karma-chrome-launcher' ]
+40 verbose url resolved https://registry.npmjs.org/karma-chrome-launcher
+41 verbose request where is https://registry.npmjs.org/karma-chrome-launcher
+42 info trying registry request attempt 1 at 19:50:05
+43 verbose etag "AOI88YOQWHDLCYIYFSA98II2E"
+44 http GET https://registry.npmjs.org/karma-chrome-launcher
+45 http 304 https://registry.npmjs.org/karma-chrome-launcher
+46 silly registry.get cb [ 304,
+46 silly registry.get   { date: 'Sat, 21 Feb 2015 17:50:06 GMT',
+46 silly registry.get     server: 'Apache',
+46 silly registry.get     via: '1.1 varnish',
+46 silly registry.get     'last-modified': 'Sat, 21 Feb 2015 17:50:06 GMT',
+46 silly registry.get     'cache-control': 'max-age=60',
+46 silly registry.get     etag: '"AOI88YOQWHDLCYIYFSA98II2E"',
+46 silly registry.get     age: '0',
+46 silly registry.get     'x-served-by': 'cache-fra1236-FRA',
+46 silly registry.get     'x-cache': 'HIT',
+46 silly registry.get     'x-cache-hits': '1',
+46 silly registry.get     'x-timer': 'S1424541006.561809,VS0,VE171',
+46 silly registry.get     vary: 'Accept',
+46 silly registry.get     'content-length': '0',
+46 silly registry.get     'keep-alive': 'timeout=10, max=50',
+46 silly registry.get     connection: 'Keep-Alive' } ]
+47 verbose etag https://registry.npmjs.org/karma-chrome-launcher from cache
+48 silly addNameRange number 2 { name: 'karma-chrome-launcher',
+48 silly addNameRange   range: '>=0.1.3-0 <0.2.0-0',
+48 silly addNameRange   hasData: true }
+49 silly addNameRange versions [ 'karma-chrome-launcher',
+49 silly addNameRange   [ '0.0.1',
+49 silly addNameRange     '0.0.2',
+49 silly addNameRange     '0.1.0',
+49 silly addNameRange     '0.1.1',
+49 silly addNameRange     '0.1.2',
+49 silly addNameRange     '0.1.3',
+49 silly addNameRange     '0.1.4',
+49 silly addNameRange     '0.1.5',
+49 silly addNameRange     '0.1.6',
+49 silly addNameRange     '0.1.7' ] ]
+50 verbose addNamed [ 'karma-chrome-launcher', '0.1.7' ]
+51 verbose addNamed [ '0.1.7', '0.1.7' ]
+52 silly lockFile ced0a4a4-karma-chrome-launcher-0-1-7 karma-chrome-launcher@0.1.7
+53 verbose lock karma-chrome-launcher@0.1.7 /home/vitaliy/.npm/ced0a4a4-karma-chrome-launcher-0-1-7.lock
+54 silly lockFile ced0a4a4-karma-chrome-launcher-0-1-7 karma-chrome-launcher@0.1.7
+55 silly lockFile ced0a4a4-karma-chrome-launcher-0-1-7 karma-chrome-launcher@0.1.7
+56 silly lockFile 9def363b-karma-chrome-launcher-0-1-3 karma-chrome-launcher@^0.1.3
+57 silly lockFile 9def363b-karma-chrome-launcher-0-1-3 karma-chrome-launcher@^0.1.3
+58 silly resolved [ { name: 'karma-chrome-launcher',
+58 silly resolved     version: '0.1.7',
+58 silly resolved     description: 'A Karma plugin. Launcher for Chrome and Chrome Canary.',
+58 silly resolved     main: 'index.js',
+58 silly resolved     scripts: { test: 'jasmine-node test' },
+58 silly resolved     repository:
+58 silly resolved      { type: 'git',
+58 silly resolved        url: 'git://github.com/karma-runner/karma-chrome-launcher.git' },
+58 silly resolved     keywords: [ 'karma-plugin', 'karma-launcher', 'chrome' ],
+58 silly resolved     author: { name: 'Vojta Jina', email: 'vojta.jina@gmail.com' },
+58 silly resolved     dependencies: {},
+58 silly resolved     peerDependencies: { karma: '>=0.9.3' },
+58 silly resolved     license: 'MIT',
+58 silly resolved     devDependencies:
+58 silly resolved      { grunt: '~0.4.1',
+58 silly resolved        'grunt-npm': '~0.0.2',
+58 silly resolved        'grunt-bump': '~0.0.6',
+58 silly resolved        'grunt-auto-release': '~0.0.2',
+58 silly resolved        'jasmine-node': '~1.14.5' },
+58 silly resolved     contributors:
+58 silly resolved      [ [Object],
+58 silly resolved        [Object],
+58 silly resolved        [Object],
+58 silly resolved        [Object],
+58 silly resolved        [Object],
+58 silly resolved        [Object],
+58 silly resolved        [Object],
+58 silly resolved        [Object] ],
+58 silly resolved     bugs: { url: 'https://github.com/karma-runner/karma-chrome-launcher/issues' },
+58 silly resolved     homepage: 'https://github.com/karma-runner/karma-chrome-launcher',
+58 silly resolved     _id: 'karma-chrome-launcher@0.1.7',
+58 silly resolved     dist:
+58 silly resolved      { shasum: 'c248cc01d5ae17dafdb16319d0badf637dfb6e59',
+58 silly resolved        tarball: 'http://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.1.7.tgz' },
+58 silly resolved     _from: 'karma-chrome-launcher@^0.1.3',
+58 silly resolved     _npmVersion: '1.4.4',
+58 silly resolved     _npmUser: { name: 'vojtajina', email: 'vojta.jina@gmail.com' },
+58 silly resolved     maintainers: [ [Object] ],
+58 silly resolved     directories: {},
+58 silly resolved     _shasum: 'c248cc01d5ae17dafdb16319d0badf637dfb6e59',
+58 silly resolved     _resolved: 'https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-0.1.7.tgz',
+58 silly resolved     readme: 'ERROR: No README data found!' } ]
+59 info install karma-chrome-launcher@0.1.7 into /home/vitaliy/Desktop/42cups/client
+60 info installOne karma-chrome-launcher@0.1.7
+61 verbose node_modules/karma-chrome-launcher unbuild
+62 verbose tar unpack /home/vitaliy/.npm/karma-chrome-launcher/0.1.7/package.tgz
+63 silly lockFile 7226d525-de-modules-karma-chrome-launcher tar:///home/vitaliy/Desktop/42cups/client/node_modules/karma-chrome-launcher
+64 verbose lock tar:///home/vitaliy/Desktop/42cups/client/node_modules/karma-chrome-launcher /home/vitaliy/.npm/7226d525-de-modules-karma-chrome-launcher.lock
+65 silly lockFile 31b7c2c3-hrome-launcher-0-1-7-package-tgz tar:///home/vitaliy/.npm/karma-chrome-launcher/0.1.7/package.tgz
+66 verbose lock tar:///home/vitaliy/.npm/karma-chrome-launcher/0.1.7/package.tgz /home/vitaliy/.npm/31b7c2c3-hrome-launcher-0-1-7-package-tgz.lock
+67 silly gunzTarPerm modes [ '775', '664' ]
+68 silly gunzTarPerm extractEntry package.json
+69 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+70 silly gunzTarPerm extractEntry LICENSE
+71 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+72 silly gunzTarPerm extractEntry index.js
+73 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+74 silly gunzTarPerm extractEntry test/jsflags.spec.js
+75 silly gunzTarPerm modified mode [ 'test/jsflags.spec.js', 420, 436 ]
+76 silly lockFile 7226d525-de-modules-karma-chrome-launcher tar:///home/vitaliy/Desktop/42cups/client/node_modules/karma-chrome-launcher
+77 silly lockFile 7226d525-de-modules-karma-chrome-launcher tar:///home/vitaliy/Desktop/42cups/client/node_modules/karma-chrome-launcher
+78 silly lockFile 31b7c2c3-hrome-launcher-0-1-7-package-tgz tar:///home/vitaliy/.npm/karma-chrome-launcher/0.1.7/package.tgz
+79 silly lockFile 31b7c2c3-hrome-launcher-0-1-7-package-tgz tar:///home/vitaliy/.npm/karma-chrome-launcher/0.1.7/package.tgz
+80 info preinstall karma-chrome-launcher@0.1.7
+81 verbose readDependencies using package.json deps
+82 verbose readDependencies using package.json deps
+83 silly resolved []
+84 verbose about to build /home/vitaliy/Desktop/42cups/client/node_modules/karma-chrome-launcher
+85 info build /home/vitaliy/Desktop/42cups/client/node_modules/karma-chrome-launcher
+86 verbose linkStuff [ false,
+86 verbose linkStuff   false,
+86 verbose linkStuff   false,
+86 verbose linkStuff   '/home/vitaliy/Desktop/42cups/client/node_modules' ]
+87 info linkStuff karma-chrome-launcher@0.1.7
+88 verbose linkBins karma-chrome-launcher@0.1.7
+89 verbose linkMans karma-chrome-launcher@0.1.7
+90 verbose rebuildBundles karma-chrome-launcher@0.1.7
+91 info install karma-chrome-launcher@0.1.7
+92 info postinstall karma-chrome-launcher@0.1.7
+93 info build /home/vitaliy/Desktop/42cups/client
+94 verbose linkStuff [ false, false, false, '/home/vitaliy/Desktop/42cups' ]
+95 info linkStuff ngbp@0.3.2
+96 verbose linkBins ngbp@0.3.2
+97 verbose linkMans ngbp@0.3.2
+98 verbose rebuildBundles ngbp@0.3.2
+99 verbose rebuildBundles [ '.bin',
+99 verbose rebuildBundles   'coffeelint',
+99 verbose rebuildBundles   'grunt',
+99 verbose rebuildBundles   'grunt-bump',
+99 verbose rebuildBundles   'grunt-coffeelint',
+99 verbose rebuildBundles   'grunt-contrib-clean',
+99 verbose rebuildBundles   'grunt-contrib-coffee',
+99 verbose rebuildBundles   'grunt-contrib-concat',
+99 verbose rebuildBundles   'grunt-contrib-copy',
+99 verbose rebuildBundles   'grunt-contrib-jshint',
+99 verbose rebuildBundles   'grunt-contrib-less',
+99 verbose rebuildBundles   'grunt-contrib-uglify',
+99 verbose rebuildBundles   'grunt-contrib-watch',
+99 verbose rebuildBundles   'grunt-conventional-changelog',
+99 verbose rebuildBundles   'grunt-html2js',
+99 verbose rebuildBundles   'grunt-karma',
+99 verbose rebuildBundles   'grunt-ng-annotate',
+99 verbose rebuildBundles   'karma',
+99 verbose rebuildBundles   'karma-chrome-launcher',
+99 verbose rebuildBundles   'karma-coffee-preprocessor',
+99 verbose rebuildBundles   'karma-firefox-launcher',
+99 verbose rebuildBundles   'karma-jasmine' ]
+100 verbose rebuild bundle /home/vitaliy/Desktop/42cups/client/node_modules/coffeelint
+101 info build /home/vitaliy/Desktop/42cups/client/node_modules/coffeelint
+102 info preinstall coffeelint@1.9.0
+103 verbose linkStuff [ false,
+103 verbose linkStuff   false,
+103 verbose linkStuff   false,
+103 verbose linkStuff   '/home/vitaliy/Desktop/42cups/client/node_modules' ]
+104 info linkStuff coffeelint@1.9.0
+105 verbose linkBins coffeelint@1.9.0
+106 verbose link bins [ { coffeelint: './bin/coffeelint' },
+106 verbose link bins   '/home/vitaliy/Desktop/42cups/client/node_modules/.bin',
+106 verbose link bins   false ]
+107 verbose linkMans coffeelint@1.9.0
+108 verbose rebuildBundles coffeelint@1.9.0
+109 verbose rebuildBundles [ '.bin', 'coffee-script', 'glob', 'ignore', 'optimist', 'resolve' ]
+110 error Error: EACCES, unlink '/home/vitaliy/Desktop/42cups/client/node_modules/.bin/coffeelint'
+110 error  { [Error: EACCES, unlink '/home/vitaliy/Desktop/42cups/client/node_modules/.bin/coffeelint']
+110 error   errno: 3,
+110 error   code: 'EACCES',
+110 error   path: '/home/vitaliy/Desktop/42cups/client/node_modules/.bin/coffeelint' }
+111 error Please try running this command again as root/Administrator.
+112 error System Linux 3.16.0-30-generic
+113 error command "/usr/bin/node" "/usr/bin/npm" "install"
+114 error cwd /home/vitaliy/Desktop/42cups/client
+115 error node -v v0.10.36
+116 error npm -v 1.4.28
+117 error path /home/vitaliy/Desktop/42cups/client/node_modules/.bin/coffeelint
+118 error code EACCES
+119 error errno 3
+120 error stack Error: EACCES, unlink '/home/vitaliy/Desktop/42cups/client/node_modules/.bin/coffeelint'
+121 verbose exit [ 3, true ]
