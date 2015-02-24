@@ -2,3 +2,9 @@
 *.pyc
 *.sqlite3
 untitled.*
+cl/*.sw*
+cl/*~
+cl/build/
+cl/bin/
+cl/node_modules/
+cl/vendor/
