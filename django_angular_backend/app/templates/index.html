@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 {% load static %}
+<<<<<<< HEAD
 <html lang="en" ng-app="42cups">
+=======
+<html lang="en" ng-app="ngBoilerplate">
+>>>>>>> 9a1576e7bf102dfe720386eb61f5839cdc475447
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +12,7 @@
 
     <title>Angular app</title>
 
+<<<<<<< HEAD
     <script type="text/javascript" src="{% static 'angular/angular.min.js' %}"></script>
     <script type="text/javascript" src="{% static "js/test.js" %}"></script>
 
@@ -16,5 +21,15 @@
   <body>
     <h1 >My contact book!</h1>
     <div class="ng-view"></div>
+=======
+    {% include 'js.tpl.html' %}
+
+  </head>
+  <body >
+      {% include 'main.tpl.html' %}
+
+      <div class="container" ui-view="main"></div>
+
+>>>>>>> 9a1576e7bf102dfe720386eb61f5839cdc475447
   </body>
 </html>
