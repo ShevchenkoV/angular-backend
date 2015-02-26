@@ -9,12 +9,12 @@
     <title>Angular app</title>
 
     <script type="text/javascript" src="{% static 'angular/angular.min.js' %}"></script>
-    <script type="text/javascript" src="{% static "test.js" %}"></script>
+    <script type="text/javascript" src="{% static "js/test.js" %}"></script>
 
 
   </head>
-  <body ng-controller="testCtrl">
-    <h1 ng-repeat="i in test">Hello world!</h1>
-
+  <body>
+    <h1 >My contact book!</h1>
+    <div class="ng-view"></div>
   </body>
 </html>
